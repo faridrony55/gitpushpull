@@ -1,0 +1,20 @@
+.herobanner{
+    background-color: var(--theme-color);
+}
+.herobanner div {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.herobanner h1{
+    font-size:4.5rem;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 2px;
+    max-width: 1000px;
+
+    font-family: 'Dela Gothic One', cursive;
+}

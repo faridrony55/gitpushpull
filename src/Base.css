@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+:root{
+  --theme-color: #312f43;
+  --secondary-color: #0ad2a0;
+}
+
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+   max-width: 100%;
+  object-fit: cover;  
+}
+
+body{
+  /* font-family: 'Dela Gothic One', cursive; */
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+}
+.grid{
+  display: grid;
+  grid-gap: 15px; 
+}
+.d-flex{
+  display: flex;
+   flex-wrap: wrap;
+    
+}
